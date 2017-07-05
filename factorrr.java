@@ -4,7 +4,7 @@ class Factorial
 {
    public static void main(String args[])
    {
-      int n, c, fact = 1;
+      int n, b, fact = 1;
  
       System.out.println("Enter an integer to calculate it's factorial");
       Scanner in = new Scanner(System.in);
@@ -15,8 +15,8 @@ class Factorial
          System.out.println("Number should be non-negative.");
       else
       {
-         for ( c = 1 ; c <= n ; c++ )
-            fact = fact*c;
+         for ( b = 1 ; b <= n ; b++ )
+            fact = fact*b;
  
          System.out.println("Factorial of "+n+" is = "+fact);
       }
